@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (phone.isEmpty()) {
                     Toast.makeText(MainActivity.this, "Proszę wprowadzić numer telefonu", Toast.LENGTH_SHORT).show();
 
-                } else if (phone.length()<=9) {
+                } else if (phone.length()<9) {
                     Toast.makeText(MainActivity.this, "Numer telefonu musi zawierać conajmniej 9 znaków", Toast.LENGTH_SHORT ).show();
 
                 //Walidacja hasła 1
